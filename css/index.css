@@ -288,3 +288,66 @@ button {
     background: white;
     border-radius: 5px;
 }
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+
+.contact-form {
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields, .msg {
+    width: 48%;
+}
+
+.input-fields .input, .msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c5ecfd;
+    color: #c5ecfd;
+    width: 100%;
+    padding: 10px;
+}
+
+.msg textarea {
+    height: 300px;
+}
+
+.wrapper .contact {
+    font-size: 36px;
+}
+
+.button {
+    color: white;
+   
+}
+
+@media screen and (max-width: 600px) {
+    .contact-form {
+        flex-direction: column;
+    }
+    .msg textarea {
+        height: 80px;
+    }
+    .input-fields, .msg {
+        width: 100%;
+    }
+}
