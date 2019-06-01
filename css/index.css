@@ -144,3 +144,215 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+ #nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+    justify-content: space-around;
+    margin-left: 2em;
+}
+
+.hdr {
+    display: flex;
+}
+
+.hdr-img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hdr a {
+    text-decoration: none;
+    color: black;
+}
+
+.boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
+.card-section {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.row1 {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.row2 {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+
+}
+
+
+.row3 {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.row4 {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+
+.row2 .item3 {
+    border-bottom: 2px dotted black;
+    margin-left: 5px;
+    width: 650px;
+}
+
+.row2 .item4 {
+    border-bottom: 2px dotted black;
+    margin-left: 67px;
+    width: 650px;
+    padding-bottom: 20px;
+}
+
+.row4 .item7 {
+    border-bottom: 2px dotted black;
+    margin-left: 5px;
+    width: 650px;
+}
+
+.row4 .item8 {
+    border-bottom: 2px dotted black;
+    margin-left: 67px;
+    width: 650px;
+    padding-bottom: 20px;
+}
+
+.work-text {
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.about-text {
+    padding-bottom: 20px;
+    border-bottom: 2px dotted black;
+}
+
+button {
+    background: white;
+    border-radius: 5px;
+}
+
+.wrapper {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+
+.input-fields, .msg {
+    width: 48%;
+}
+
+.input-fields .input, .msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c5ecfd;
+    color: #c5ecfd;
+    width: 100%;
+    padding: 10px;
+}
+
+.msg textarea {
+    height: 300px;
+}
+
+.wrapper .contact {
+    font-size: 36px;
+}
+
+.button {
+    color: white;
+   
+}
+
+@media screen and (max-width: 600px) {
+    .contact-form {
+        flex-direction: column;
+    }
+    .msg textarea {
+        height: 80px;
+    }
+    .input-fields, .msg {
+        width: 100%;
+    }
+}
